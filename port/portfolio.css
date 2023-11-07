@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #080808;
+    color: #fff;
+
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(a6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+}
+.container{
+    padding: 10px 10%;
+    
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    float: right;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+
+}
+
+nav ul li a{ 
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    transition:background 1s;
+    padding: 0px 10px ;
+    border-radius: 20px;
+
+}
+ 
+nav ul li a:hover{
+ color: #080808;
+ background-color: yellow;
+
+
+}
+.detail{
+    margin-left: 0%;
+    margin-top: 20%;
+
+}
+.detail h1{
+    font-size: 50px ;
+    color: white;
+    margin-top: 20px;
+}
+.detail span{
+    color: orange;
+
+}
+.detail p{
+    color: white;
+    line-height: 23px;
+    font-size:22px;
+    font-family: "Times New Roman", Times, serif;
+
+
+}
+
+.detail a{
+    background: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 20px 0;
+    border-radius: 5px;
+    
+}
+
+/*------------services-------------*/
+#services{
+    padding:30px 0 ;
+
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+
+}
+.services-list div{
+   background: #262626;
+   padding: 40px;
+   font-size: 30px;
+   font-weight: 300;
+    border-right: 10px;
+    transition: background 0.5s , transform 0.5s ;
+
+
+}
+.services-list div h2{
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.services-list div a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.services-list div p{
+    font-size: 19px;
+
+}
+.services-list div:hover{
+    background: yellow;
+    transform: translatey(-10px);
+    color: #080808
+
+
+}
+
+    /*-----------------social-----------------*/
+    
+    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+
+}
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 5px;
+  overflow: hidden;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+    background: #111111;
+    color: #111111;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background: #1A6ED8;
+  }
+
+  .wrapper .button:nth-child(3):hover .icon{
+    background: #c4326a;
+  }
+  .wrapper .button:nth-child(4):hover .icon{
+    background:#1A6ED8;
+  }
+  .wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: white;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  
+  .wrapper .button:nth-child(3) span{
+    color: #c4326a;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #1A6ED8;
+  }
+    
+/*---------portfolio----------*/
+#portfolio {
+    padding: 50px 0;
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+
+.layer{
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgb(202, 202, 90));
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 28px;
+
+}
+.layer a{
+    margin-top: 20px;
+    color: rgb(17, 17, 16);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: yellow;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.layer p{
+    color: #000;
+    font-size: 18px;
+}
+
+.work:hover img{
+    transform: scale(1.1);
+
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid yellow ;
+    padding: 14px 50px;
+     border-radius: 6px;
+     text-decoration: none;
+     color: #fff;
+     transition:background 0.5s;
+}
+.btn:hover{
+    background-color: yellow;
+    color: black;
+}
+/*--------------contact-------------*/
+.contact-left{
+    flex-basis: 35%; 
+}
+.contact-right{
+    flex-basis: 60%; 
+}
+.contact-left p{
+    margin-top: 30px;
+}
+contact-right form {
+    width: 100%;
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.btn2{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid yellow ;
+    padding: 14px 50px;
+     border-radius: 6px;
+     text-decoration: none;
+     color: #fff;
+     background-color: #080808;
+     transition:background 0.3s;
+}
+.btn:hover{
+    background-color: yellow;
+    color: black;
+}
+
+/*----------CSS for Mobile Phone ----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

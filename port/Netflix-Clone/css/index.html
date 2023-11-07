@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+        <ul> 
+            <li> <a href="#services">Services</a></li>
+            <li> <a href="#portfolio">Projects</a></li>
+            <li> <a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="detail">
+        <h1>i'm Saurabh <span>Kumar</span></h1>
+        <p>
+            This is my official portfolio website to showes all <br>
+            Details and work experience .
+        </p>
+        
+          <a target="_blank" href="Resume.pdf">DOWNLOAD CV </a>
+        
+          </div>
+</div>
+    </div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Developer</h2>
+                <p>Create accessible, responsive and functional user interface to allow visitors in any device to have 
+                    the same perfect user experience.</p>
+                 <a href="https://www.indeed.com/career/web-developer" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>java Developer</h2>
+                <p>Java is a general-purpose, class-based,object-oriented programming language designed for having lesser
+                   implementation dependencies. </p>
+                 <a href="https://www.indeed.com/career/java-developer" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Php Developer</h2>
+                <p>PHP is a script language and interpreter that is freely available and used primarily on Linux Web servers.
+                   PHP, originally derived from Personal Home Page Tools.</p>
+                 <a href="https://www.indeed.com/career/php-developer" target="_blank">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------projects---------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="p11.jpg">
+                <div class="layer">
+                    <h3>Online Voting System</h3>
+                    <p>
+                        Online Voting is a web-based voting system that will help you manage your elections easily and securely.                     </p>
+                    <a href='/mini_project/home' target='_blank'> "More"</a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="p2.jpg">
+                <div class="layer">
+                    <h3>Games</h3>
+                    <p>
+                        Online games refer to games that are played over some form of computer network .
+                    </p>
+                    <a href='/tictactoe/home' target='_blank'> "More"</a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="p3.jpg">
+                <div class="layer">
+                    <h3>Clones</h3>
+                    <p> 
+                        In Progress
+                    </p>
+                    <a href="#"> "More"</a>
+                </div>
+            </div>
+        </div>
+        <a href="#"class ="btn">See More</a>
+    </div>
+</div>
+<!----------contact---------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>saurabhdarshan8051@gmail.com"</p>
+                <p>9931329691</p>
+                
+            </div>
+              <!-----------------------social------------------->
+
+              <div class="wrapper">
+
+                <div class="button">
+                   <div class="icon">
+                    <a target="_blank" href="https://github.com/saurabh8051">
+                      <i class="fa-brands fa-2x fa-github"></i>
+                   </div>
+                   <span>GitHub</span>
+                </a>
+                </div>
+                <div class="button">
+                   <div class="icon">
+                    <a target="_blank" href="https://www.linkedin.com/in/saurabh-kumar-856787207/">
+                      <i class="fa-brands fa-2x fa-linkedin"></i>
+                   </div>
+                   <span>Linkedin</span>
+                </a>
+                </div>
+                
+                <div class="button">
+                   <div class="icon">
+                       <a target="_blank" href="https://www.instagram.com/saurabh.__gupta/">
+                      <i class="fa-brands fa-2x fa-instagram"></i>
+                    </div>
+                   <span>Instagram</span>
+                </a>
+                </div>
+                
+                <div class="button">
+                   <div class="icon">
+                    <a target="_blank" href="https://www.facebook.com/saurabh.bansal.9231712">
+                      <i class="fa-brands fa-2x fa-facebook"></i>
+                   </div>
+                   <span>Facebook</span>
+                </a>
+                </div>
+             </div>
+
+           
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                     <input type="email" name="email" placeholder="your Email" required> 
+                     <textarea name="message" rows="6" placeholder="your message"></textarea>
+                     <button type="submit" class="btn btn2">Submit</button>
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+   
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+   function opentab(tabname){
+    for(tablink of tablinks)
+    {
+        tablink.classList.remove("active-link");
+    }
+    for(tablink of tabcontent)
+    {
+        tablink.classList.remove("active-tab");
+    }
+   }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
